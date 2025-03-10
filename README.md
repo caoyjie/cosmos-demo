@@ -5,6 +5,9 @@ This repo contains a dbt project and a set of Airflow DAGs showing how to run db
 To run this, you'll need:
 
 - [The Astro CLI installed](https://docs.astronomer.io/astro/cli/overview)
+
+安装命令：
+`sudo bash -c 'curl -sSL https://install.astronomer.io | bash'`
 - Docker
 
 ## Setup
