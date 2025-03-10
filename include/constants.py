@@ -5,6 +5,7 @@ from cosmos import ExecutionConfig
 
 jaffle_shop_path = Path("/usr/local/airflow/dbt/jaffle_shop")
 dbt_executable = Path("/usr/local/airflow/dbt_venv/bin/dbt")
+e_commerece_shop_path = Path("/usr/local/airflow/dbt/e-commerece")
 
 venv_execution_config = ExecutionConfig(
     dbt_executable_path=str(dbt_executable),
